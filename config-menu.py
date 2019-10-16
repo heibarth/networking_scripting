@@ -21,7 +21,7 @@ def menu():
     print("")
     print("4. Exit")
     print(" ")
-    OurInput = input("Ingrese el número asociado al tipo de conexión: ")
+    OurInput = input("Ingrese el numero asociado al tipo de conexion: ")
     if OurInput == "1":
         print("Ha seleccionado Telnet")
         print("Por favor ingrese el nombre del archivo con las IPs de los dispositivos a conectar: ")

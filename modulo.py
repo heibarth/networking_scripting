@@ -48,8 +48,7 @@ def Telnet(file):
         print("Validacion de datos\nIP: "+host+"\n"+un+"\n"+pw+"\n")
         lista = []
         try:
-            device = ConnectHandler(
-                device_type='cisco_ios_telnet', ip=host, username=un, password=pw)
+            device = ConnectHandler(device_type='cisco_ios_telnet', ip=host, username=un, password=pw)
             device_str = str(device)
             lista = device_str.split()
             if len(lista) != 0:

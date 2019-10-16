@@ -9,7 +9,7 @@ try:
 except:
     print("Error Netmiko not installed - https://github.com/ktbyers/netmiko")
     sys.exit()
-    
+
 ips = ["172.17.64.130"]
 un = "LAMCDCORP\AD124271"
 pw = "Vd_6474874"

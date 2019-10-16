@@ -28,7 +28,7 @@ def menu():
         ip = input('Nombre del Archivo: ')
         modulo.Telnet(ip)
     elif OurInput == "2":
-        print("Ha seleccionado SSH")
+        print("Ha seleccionado la Opcion 2. Conexion SSH")
         print("Por favor ingrese el nombre del archivo con las IPs de los dispositivos a conectar: ")
         file = input('Nombre del Archivo: ')
         modulo.SSH(file)

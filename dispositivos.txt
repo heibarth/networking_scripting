@@ -1,2 +1,4 @@
-172.17.64.130
-172.17.64.131
+<Device_IP_1>
+<Device_IP_2>
+<Device_IP_3>
+<Device_IP_4>

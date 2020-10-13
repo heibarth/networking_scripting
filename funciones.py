@@ -10,9 +10,9 @@ except:
     print("Error Netmiko not installed - https://github.com/ktbyers/netmiko")
     sys.exit()
 
-ips = ["172.17.64.130"]
-un = "LAMCDCORP\AD124271"
-pw = "Vd_6474874"
+ips = ["<Device_IP_1>","<Device_IP_2>","<Device_IP_3>"]
+un = "User_Name"
+pw = "Password"
 devices = []
 
 for ip in ips:
